@@ -4,7 +4,7 @@ from fastapi.responses import JSONResponse
 import pdfplumber
 import re
 import os
-from skills_list import skills_list
+from data import *
 
 app = FastAPI()
 
