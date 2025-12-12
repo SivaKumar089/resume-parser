@@ -20,7 +20,7 @@ const ResumeParser = () => {
     const formData = new FormData();
     formData.append("file", file);
 
-    const res = await fetch("https://resume-parser-2rp6.onrender.com/parse-resume", {
+    const res = await fetch("https://resume-parser-1-g9u4.onrender.com/parse-resume", {
       method: "POST",
       body: formData
     });
